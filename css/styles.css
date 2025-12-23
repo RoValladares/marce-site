@@ -21,13 +21,17 @@ body {
   justify-content: center;     /* centra todo horizontalmente */
 }
 
+/* FILTRO SUAVIZADO PARA TODA LA PÁGINA */
 .wrapper {
   width: 100%;
-  max-width: 900px;           
-  border: 12px solid #D2A679; /* marco elegante */
-  padding: 1.5rem;            
+  max-width: 900px;
+  border: 12px solid #D2A679;
+  padding: 1.5rem;
   box-shadow: 0 15px 40px rgba(0,0,0,0.2);
-  background-color: #FFF8F0;   /* fondo interno */
+  background-color: #FFF8F0;
+
+  /* FILTRO SUAVIZADO */
+  filter: brightness(0.95) saturate(0.85);
 }
 
 /* =========================
